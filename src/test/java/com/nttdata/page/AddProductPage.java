@@ -9,7 +9,8 @@ public class AddProductPage {
     public static By priceTotalCalculated = By.cssSelector("p.product-total span.value");
     public static By headerSuccess = By.id("myModalLabel");
     public static By buyButton = By.cssSelector("div.cart-content-btn a.btn.btn-primary");
-    public static By quantityCalculated = By.cssSelector("p.product-price");
-    public static By priceCalculated = By.cssSelector("span.product-quantity strong");
+    public static By priceCalculated= By.cssSelector("p.product-price");
+    public static By quantityCalculated = By.cssSelector("span.product-quantity strong");
+    public static By modal = By.xpath("//*[@id=\"blockcart-modal\"]/div");
 
 }

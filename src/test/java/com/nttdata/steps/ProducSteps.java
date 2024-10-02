@@ -9,6 +9,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
+import java.util.List;
 
 public class ProducSteps {
 
@@ -27,8 +28,10 @@ public class ProducSteps {
 
     public void clickAddButton(){
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
-        WebElement addButton = wait.until(ExpectedConditions.elementToBeClickable(AddProductPage.addButton));
-        addButton.click();
+        this.driver.findElement(AddProductPage.addButton).click();
+        // Espera que el modal de confirmación aparezca
+        wait.until(ExpectedConditions.visibilityOfElementLocated(AddProductPage.modal));
+
     }
 
     public void clickBuyButton(){

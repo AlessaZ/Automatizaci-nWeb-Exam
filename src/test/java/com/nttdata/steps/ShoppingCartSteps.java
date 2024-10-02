@@ -20,7 +20,7 @@ public class ShoppingCartSteps {
     }
 
     public int getQuantity() {
-        return Integer.parseInt(this.driver.findElement(ShoppingCartPage.quantity).getAttribute("value"));
+        return Integer.parseInt(this.driver.findElement(ShoppingCartPage.quantity).getAttribute("value").trim());
     }
 
     public String getCartHeader() {

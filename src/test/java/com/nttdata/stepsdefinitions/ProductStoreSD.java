@@ -134,7 +134,7 @@ public class ProductStoreSD {
         String cartHeader = shoppingCartSteps.getCartHeader();
 
         try{
-            Assertions.assertEquals("Carrito", cartHeader);
+            Assertions.assertEquals("CARRITO", cartHeader);
 
         } catch (Exception e) {
             throw new RuntimeException(e);
