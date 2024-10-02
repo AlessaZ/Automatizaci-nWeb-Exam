@@ -4,7 +4,7 @@
 
 ## Descargar reporte en PDF
 
-[Descargar reporte en PDF](./target/cucumber/Cucumber-exam-web-automat.pdf)
+[Descargar reporte en PDF](https://drive.google.com/uc?export=download&id=1MfB8bbEmtpv_YLzOAnGuj3X3FChmgg0a)
 
 ## Autora
 
